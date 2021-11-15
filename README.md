@@ -1,5 +1,7 @@
 # corals
 multi-stressor extension of model from Mumby et al. 2007
+
+
 We employ a simple multi-stressor extension to the well known Mumby et al.(Mumby et al. 2007) model. Here, we follow recent evidence from the literature that suggests coral calcification is inhibited by increased nutrients(Shantz and Burkepile 2014), and similarly making the intuitive assumption that nutrients increase the growth rate of macroalgae (a primary producer), as well as decreases coral’s resistance to macroalgae overgrowth and competitive ability(Lapointe 1999, McClanahan et al. 2003). Figure 1A shows a schematic summarizing our model and the interactions between state variables. As such, our new nutrient-dependent model is as follows: 
 
 dM⁄dt=M(aC( N_t⁄((N_0+N_t ) ))-   g⁄((M+B) )  + yB)                   (1)
